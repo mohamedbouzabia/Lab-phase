@@ -1,0 +1,127 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:#008080;
+    font-family: 'Poppins', sans-serif;
+    background-image:url(./images.png/_97425911_041081408.JPEG);
+    background-repeat: no-repeat;
+    color: antiquewhite;
+  }
+  
+ 
+  header {
+    background-color: rgba(156, 4, 4, 0.979);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333333;
+  }
+  
+  nav a:hover {
+    color: #008080;
+  }
+  
+  
+  .banner {
+    background-image: url('https://source.unsplash.com/1600x900/?tunisia');
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    text-shadow: 2px 2px #333333;
+  }
+  
+  
+  main {
+    padding: 40px;
+  }
+  
+  
+  .feature {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .feature img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  aside {
+    width: 300px;
+    margin-left: 40px;
+  }
+  
+  aside h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  aside li {
+    margin-bottom: 10px;
+  }
+  
+ 
+  footer {
+    background-color: rgba(156, 4, 4, 0.979);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .social-media a:hover {
+    color: #008080;
+  }
